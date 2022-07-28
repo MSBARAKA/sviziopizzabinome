@@ -1,0 +1,55 @@
+// == Message envoyé == //
+.message{
+        display: flex;
+        justify-content: center;
+        background: $color-primary;
+        padding: 3rem 1rem;
+           
+        &-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5rem 2rem;
+            background: $color-white;
+            width: 90%;
+                 
+            &-messagebloc{
+               
+                color: $color-primary;
+                
+                &-svizio{
+                        margin-top: 3rem ;
+                        color: $color-black;
+                }
+                &-promesse{
+                        color: $color-black;
+                        font-family: $font-family-grace;  
+                }
+                &-remercie{
+                        margin-top: 3rem ;
+                }
+    
+                &-delais{
+                        margin-top: 3rem ;
+                        margin-bottom: 3rem;
+                }
+                &-button{
+                        margin-top: 3rem ;
+                        padding: 0.6rem 3rem;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        color: $color-white;
+                        border-radius: 50px;
+                        border: none;
+                        background-color: $color-primary;
+                }
+    
+                &-button:hover{
+                        background-color: $color-hover;
+                }
+            }  
+        }
+}
+    
+    

@@ -1,0 +1,42 @@
+// == Message envoyé Error/Erreur 404 == //
+.message{
+    display: flex;
+    justify-content: center;
+    background: $color-primary;
+    padding: 3rem 1rem;
+       
+    &-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5rem 2rem;
+        background: $color-white;
+        width: 90%;
+             
+        &-erreurs{
+           
+            color: $color-secondary;
+            font-family: $font-family-grace;
+           
+            &-svizio{
+                    margin-top: 3rem ;
+                    color: $color-black;
+            }
+            &-promesse{
+                    color: $color-black;
+                    font-family: $font-family-grace;  
+            }
+            &-malpassee{
+                    margin-top: 1rem ;
+            }
+
+            &-rechargez{
+                    
+                    margin-bottom: 3rem;
+            }
+           
+        }  
+    }
+}
+

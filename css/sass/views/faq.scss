@@ -1,0 +1,134 @@
+// == FAQ page d'accueil == //
+
+.accueil-faq{
+
+
+    padding: 5rem 2rem;
+    
+    width: auto;
+    &-tableau{
+        color: $color-white;
+        &-title{
+        text-align: center;
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        color: $color-white;
+        font-size: 2.5rem;
+        }
+        &-accordion{
+        width: 80%;
+        height: 2rem;
+        color: $color-white;   
+        background: $color-primary;
+        border-color: $color-white;
+        content: attr(data-question);
+        font-size: 0.9rem;
+    
+            &-panel{
+             
+               
+                padding: 0 30%;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+               
+        
+            }
+
+            &-txt{
+                text-align: left;
+                font-size: 0.8rem;
+            }
+        }
+        &-accordion:hover{
+        background-color: $color-hover;
+        }
+        &-accordion:before
+        { content: attr(data-question);
+            
+            font-weight: bold;
+            float: left;
+            margin-left: 2rem;
+            margin-right: 1rem;
+            color: $color-white;   
+         
+    
+        
+        }
+
+    }
+}
+
+//data attribute en html scss appeler une fonction data attribute attr
+//html déclrer dataattribute il faudra déclarer tout le temps plus et moins
+//déclare le plus dans les data attribute et le chnagement se fera en js et en scss
+//enscss se fait dans content data attribute attr()
+
+//autre façon 2 boutons
+
+
+// === Media Query Footer principal === //
+
+@media screen and (max-width: 1024px) {
+    .accueil-faq{
+
+        &-tableau{
+
+            &-accordion{
+            width: 80%;
+            height: 2rem;
+            font-size: 0.7rem;
+
+                &-txt{
+                    text-align: left;
+                    font-size: 0.8rem;
+                }
+            }
+        
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .accueil-faq{
+
+        &-tableau{
+
+            &-accordion{
+            width: 80%;
+            height: 3rem;
+            font-size: 0.7rem;
+
+                &-txt{
+                    text-align: left;
+                    font-size: 0.8rem;
+                }
+            }
+        
+        }
+    }
+}
+   
+    
+    
+@media screen and (max-width: 425px) {
+    .accueil-faq{
+
+        &-tableau{
+
+            &-accordion{
+            width: 80%;
+            height: 5rem;
+            font-size: 0.8rem;
+
+                &-txt{
+                    text-align: left;
+                    font-size: 0.8rem;
+                }
+            }
+        
+        }
+    }
+    }
+    
+    

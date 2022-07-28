@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome CSS  pour les icônes des réseaux sociaux-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+
+    <!-- Script JS -->
+    <script type="module" src="./js/main.js" defer></script>
+
+    <title>Svizio - Accueil</title>
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="./index.html" class="header-logo">
+            <img src="./assets/images/Logo-Svizio.png" alt="Le logo de svizio" class="header-logo-img"/>
+            <div>
+                <h1 class="header-logo-title">Svizio</h1>
+                <p>Le maître de la pizza</p>
+            </div>
+        </a>
+
+        <nav class="header-menu">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./pages/produits.html">Nos Produits</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li class="icon-mobile"><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </nav>
+
+        <div class="header-mobilenav">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <i class="fa-solid fa-xmark close-mobilenav"></i>
+
+        <div class="header-icon">
+            <p id="clock"></p>
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </header>
+    <!-- Fin Header -->
+
+    <main class="accueil">
+        <!-- Section Carousel -->
+        <section class="accueil-carousel">
+            <div class="accueil-carousel-container">
+                <img src="./assets/images/carousel/carousel-1.jpg" alt="Une cheminée au feu de bois">
+                <img src="./assets/images/carousel/carousel-2.jpg" alt="Une pizza quatre fromage">
+                <img src="./assets/images/carousel/carousel-3.jpg" alt="Une main et de la pâte à pizza">
+                <img src="./assets/images/carousel/carousel-1.jpg" alt="Une cheminée au feu de bois">
+            </div>
+        </section>
+        <!-- Fin Section Carousel -->
+
+        <!-- Section Information -->
+        <section class="accueil-information">
+            <div class="accueil-information-container">
+                <img class="accueil-information-container-img" src="./assets/images/information/italy.jpg" alt="Une carte de l'Italie">
+                <div>
+                    <p class="accueil-information-container-title">Nos Produits</p>
+                    <p class="accueil-information-container-text">
+                        Pour vous servir, nous engageons à construire des fillières durables, à proposer des produits de qualité et 
+                        à defendre des pratiques plus responsables.
+                    </p>
+                </div>
+            </div>
+            <div class="accueil-information-container">
+                <img class="accueil-information-container-img" src="./assets/images/information/rolling-pin.jpg" alt="Un rouleau avec de la pâte à pizza"">
+                <div>
+                    <p class="accueil-information-container-title">120 ans de pratiques !</p>
+                    <p class="accueil-information-container-text">
+                        Svizio c'est 120ans de pratiques, des pizzas savoureuses et surtout préparer avec amour.
+                    </p>
+                </div>
+            </div>
+            <div class="accueil-information-container">
+                <img class="accueil-information-container-img" src="./assets/images/information/Bambino.jpg" alt="Une image d'un enfant qui tient une pizza">
+                <div>
+                    <p class="accueil-information-container-title">Bambino</p>
+                    <p class="accueil-information-container-text">
+                        Des cadeaux, des menus offerts pour vos enfants, vous pourrez savourer nos pizzas en famille !
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Section Information -->
+
+        <!-- Section Nos Produits -->
+        <section class="accueil-produits">
+            <h2 class="accueil-produits-title">Nos Produits</h2>
+            <div class="accueil-produits-container">
+                <!-- Code importer depuis le js -->
+            </div>
+        </section>
+        <!-- Fin Section Nos Produits-->
+        <!-- Section FAQ -->
+
+        <section class="accueil-faq"> 
+                    
+            <div class="accueil-faq-tableau">
+            <h2 class="accueil-faq-tableau-title">FAQ</h2>
+           
+            <button class="accueil-faq-tableau-accordion active"  data-question="+" >Quelles sont les conditions du cagnottage ?</button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">Le cagnottage s’effectue hors menus, hors promotions, hors plat du jour et hors utilisation de la cagnotte. Le terme hors utilisation de la cagnotte signifie que si vous avez une addition de 15€ et que vous utilisez 5€ de votre cagnotte, vous cagnotterez sur 10€.</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion" data-question="+">Y’a-t-il un plafond maximum d’euros cagnottés ?
+            </button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">Oui, vous pouvez cagnotter jusqu’à 200€ sur votre carte. Une fois ce plafond atteint, vous ne pouvez plus cumuler d’euros.</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+">J’ai un problème avec ma commande, que faire ? </button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">En cas de souci avec votre commande, nous vous invitons à joindre le service consommateurs par téléphone : 02.99.22.XX.XX ou bien par email : service-clients@svizio.fr</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+">Où puis-je consulter les Conditions Générales de Vente ? </button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">La rubrique Conditions Générales de Vente, nommée « CGV », se situe en bas de toutes les pages du site.
+                Vous pouvez également y accéder en cliquant sur ce lien : https://www.svizio.fr/conditions-generales-de-ventes</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+">Quels sont les moyens de paiement acceptés pour régler en ligne ? </button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">Vous pouvez régler par carte bleue ou par ticket restaurant dématérialisé en fonction des restaurants.</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+">Le paiement en ligne est-il obligatoire ?  </button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">Oui, le paiement en ligne est obligatoire.</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+">Quel(s) justificatif(s) dois-je montrer en restaurant pour récupérer ma commande ?  </button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">Lors du retrait de votre commande, présentez votre email de confirmation de commande (sur mobile ou en version papier) et scannez le QR CODE ou communiquez votre numéro de retrait composé de 3 chiffres au serveur.</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+">Y-a-t-il un montant minimum de commande ?</button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">Non.</p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+"> Comment activer ma carte de fidélité ?</button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">Rendez-vous sur votre compte ou téléchargez l’application mobile Del Arte.
+                Remplissez ensuite un formulaire d’activation de carte en renseignant votre numéro de carte de fidélité, votre e-mail, votre nom, prénom et votre restaurant préféré.
+                </p>
+            </div>
+
+            <button class="accueil-faq-tableau-accordion"  data-question="+">À quoi sert l’activation de la carte ? </button>
+            <div class="accueil-faq-tableau-accordion-panel">
+            <p class="accueil-faq-tableau-accordion-txt">L’activation de la carte vous permet de pouvoir utiliser votre cagnotte lors de sa prochaine visite.</p>
+            </div>
+            </div>
+     </section> 
+
+        <!-- Fin Section FAQ-->
+        <!-- Section Systeme -->
+        <section class="accueil-systeme">
+            <div class="accueil-systeme-container">
+                <figure class="accueil-systeme-container-img">
+                    <img src="./assets/images/systeme/image-4.png" alt="Une image d'une toque">
+                </figure>
+                <p class="accueil-systeme-container-title">La qualité Svizio</p>
+                <p class="accueil-systeme-container-text">Nous privilégions les ingrédients authentiques</p>
+            </div>
+            <div class="accueil-systeme-container">
+                <figure class="accueil-systeme-container-img">
+                    <img src="./assets/images/systeme/image.png" alt="Une image d'un cadenas">
+                </figure>
+                <p class="accueil-systeme-container-title">Paiement sécurisé</p>
+                <p class="accueil-systeme-container-text">Commandez et payez l'esprit tranquille</p>
+            </div>
+            <div class="accueil-systeme-container">
+                <figure class="accueil-systeme-container-img">
+                    <img src="./assets/images/systeme/image-1.png" alt="Une image d'une pizza en noir et blanc">
+                </figure>
+                <p class="accueil-systeme-container-title">Nous vous accueillons tous les jours</p>
+                <p class="accueil-systeme-container-text">Nous sommes ouverts du lundi au dimanche</p>
+            </div>
+            <div class="accueil-systeme-container">
+                <figure class="accueil-systeme-container-img">
+                    <img src="./assets/images/systeme/image-2.png" alt="Un scooter de livraison">
+                </figure>
+                <p class="accueil-systeme-container-title">Livraison à domicile</p>
+                <p class="accueil-systeme-container-text">Vos plats préférés livrés directement chez vous</p>
+            </div>
+            <div class="accueil-systeme-container">
+                <figure class="accueil-systeme-container-img">
+                    <img src="./assets/images/systeme/image-3.png" alt="Une image d'un téléphone fixe">
+                </figure>
+                <p class="accueil-systeme-container-title">Service clients</p>
+                <p class="accueil-systeme-container-text">Besoin d'informations, une question, un commentaire ?</p>
+            </div>
+        </section>
+        <!-- Fin Section Systeme-->
+    </main>
+    <!-- tuto data atributes-->
+   
+      <!-- <nav class="navbartuto" data-number="+" data-name="navbarlight"></nav>
+      <nav class="navbartuto" data-number="-" data-name="navbardark"></nav>
+      <p class="toggle">Color this text</p> -->
+
+    <!-- fin tuto data attributes-->
+    <!-- Section Footer principal -->
+<section class="footer-principal">
+  
+    <div class="footer-principal-container">
+    <div class="footer-principal-container-left-box">
+      <h2 class="footer-principal-container-left-box-title">Retrouvez-nous</h2>
+     
+           <span class="footer-principal-container-left-box-title-social">
+              <img class="footer-principal-container-left-box-title-social-img" src="./assets/images/whatsapp.ico" alt="whatsapp icon">
+              <a class="footer-principal-container-left-box-title-social-img-a" href=""></a>
+           </span> 
+           <span class="footer-principal-container-left-box-title-social">
+              <img class="footer-principal-container-left-box-title-social-img" src="./assets/images/facebook.ico" alt="facebook icon">
+              <a class="footer-principal-container-left-box-title-social-img-a" href=""></a>
+           </span> 
+           <span class="footer-principal-container-left-box-title-social">
+              <img  class="footer-principal-container-left-box-title-social-img" src="./assets/images/instagram.ico" alt="instagram icon">
+              <a class="footer-principal-container-left-box-title-social-img-a" href=""></a>
+              <p class="footer-principal-container-left-box-title-social-texte" >Pour votre santé, évitez de manger entre les repas, www.mangerbouger.fr</p>
+              <p class="footer-principal-container-left-box-title-social-textedeux">L'abus d'alcool est dangereux pour la santé. Sachez consommer et apprécier avec modération</p>
+           </span> 
+          
+    </div>
+    <div class="footer-principal-container-center-box">
+        <div class="footer-principal-container-center-box-title-content">
+            <div class="footer-principal-container-center-box-title-content-ventealcoolinterdite">
+            <img class="footer-principal-container-center-box-title-content-ventealcoolinterdite-img"src="./assets/images/alcoolmineurs.png" alt="vente alcool aux mineurs interdite">
+            </div>
+        </div>
+    </div>
+    <div class="footer-principal-container-right-box">
+        <h2 class="footer-principal-container-right-box-title">Svizio</h2>
+         
+             <span class="footer-principal-container-right-box-title-social">
+                <a class="footer-principal-container-right-box-title-social-a" href="">Information</a>
+             </span> 
+             <span class="footer-principal-container-right-box-title-social">
+                <a class="footer-principal-container-right-box-title-social-a" href="./pages/contact.html">Contactez-nous</a>
+             </span> 
+             <span class="footer-principal-container-right-box-title-social">
+                <a class="footer-principal-container-right-box-title-social-a" href="./pages/produits.html">Nos produits</a>
+             </span> 
+             <span class="footer-principal-container-right-box-title-social">
+                <a class="footer-principal-container-right-box-title-social-a" href="">FAQ</a>
+             </span> 
+             <span class="footer-principal-container-right-box-title-social">
+                <a class="footer-principal-container-right-box-title-social-a" href="">Notre fonctionnement</a>
+             </span> 
+          </div>
+      </div>
+    </div>
+           
+  </section>
+        <!-- Fin Section Footer principal-->
+       
+         <!-- Footer -->
+<footer class="footer-principal-footer-svizio">
+    <p class="footer-principal-footer-svizio-copyright">© 2022 Svizio</p>
+</footer>
+        <!-- Fin Footer -->
+</body>
+            
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "svizio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch css/sass/index.scss:css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faranix/svizio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faranix/svizio/issues"
+  },
+  "homepage": "https://github.com/faranix/svizio#readme",
+  "dependencies": {
+    "sass": "^1.49.10"
+  }
+}

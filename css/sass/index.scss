@@ -1,0 +1,33 @@
+// == Import == //
+@import "./variable";
+@import "./mixin";
+
+// == Import Components == //
+@import "./components/header.scss";
+@import "./components/footer.scss";
+
+// == Import Views == //
+@import "./views/accueil.scss";
+@import "./views/produits.scss";
+@import "./views/produit.scss";
+@import "./views/contact.scss";
+@import "./views/faq.scss";
+@import "./views/error404.scss";
+@import"./views/message.scss";
+
+// == All == //
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}

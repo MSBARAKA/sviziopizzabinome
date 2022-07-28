@@ -1,0 +1,294 @@
+// == Footer principal == //
+.footer-principal {
+       
+        padding: 2rem 3rem;
+        font-size: 1rem;
+        color: $color-white;
+        background: $color-secondary;
+      
+        
+        &-container{
+
+        display: grid;
+        grid-template-areas : "leftbox centerbox rightbox" 
+                                "leftbox centerbox rightbox" 
+                                "leftbox centerbox rightbox";
+        background: $color-secondary;
+        
+                &-left-box{
+                        grid-area: leftbox;
+                
+                        &-title{
+                                font-size: 1rem;
+                                
+                                &-social{
+                                        &-img{
+                                                width: 10%;
+                                                // margin-bottom: 2rem;    
+                                                margin: 0.3rem 0.3rem; 
+                                        }
+                                
+                                        &-texte{
+                                                font-size: 0.8rem;
+                                                margin: 0.3rem 0.3rem; 
+                                        
+                                        }
+                                        &-textedeux{
+                                                font-size: 0.8rem;
+                                                margin: 0.3rem 0.3rem; 
+                                        
+                                        }
+                                }
+                        }
+                }
+                &-center-box{
+                        grid-area: centerbox;
+                        display: flex;
+                        align-self: end;
+   
+                        &-title-content{
+                                &-ventealcoolinterdite{
+                                &-img{
+                                        margin: 1rem 1rem; 
+                                        width: 90%;
+                                }
+                                }
+                        }
+                }
+                &-right-box{
+                        grid-area: rightbox;
+                        &-title{
+                                font-size: 1rem;
+                                &-social{
+                                        &-a{
+                                                font-size: 0.8rem;
+                                                margin: 0.3rem 0.3rem;
+                                                display: flex;
+                                                align-self: stretch;
+                                                
+                                        }
+                                        &-a:hover{
+                                        color: $color-hover;
+                                        }
+                                }
+                        }
+                }
+        }
+
+        
+}
+
+    
+// == Footer la balise svizio copyright == //
+.footer-principal-footer-svizio{
+        background: $color-secondary;
+        color:$color-white;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        
+
+}
+
+// === Media Query Footer principal === //
+
+// @media screen and (max-width: 1024px) {
+// .footer-principal {
+        
+//         &-container{
+//                 &-left-box{
+                        
+                        
+
+//                         &-title{
+                                
+//                                 margin-left: 10%;
+//                                 font-size: 1rem;
+                        
+                                
+//                                 &-social{
+//                                 margin-top: 5%;
+//                                 margin-left: 5%;
+                              
+//                                         &-texte{
+                                        
+//                                                 margin-left: 5%;
+//                                                 font-size: 1rem;
+                                        
+//                                         }
+//                                         &-textedeux{
+//                                                 margin-left: 5%;
+//                                                 font-size: 1rem;
+                                        
+                                        
+//                                         }
+//                                 }
+//                         }
+//                 }
+//                 &-center-box{
+                        
+                        
+//                         &-title-content{
+
+                                
+//                                 &-ventealcoolinterdite{
+//                                         &-img{
+                                        
+                                        
+//                                         width: 100%;
+//                                         }
+//                                 }
+//                         }
+//                 }  
+//         }
+// }
+
+@media screen and (max-width: 768px) {
+
+.footer-principal {
+       
+        &-container{
+        
+        display : grid;
+        grid-template-areas : "rightbox rightbox rightbox" 
+                                "leftbox leftbox leftbox" 
+                                "centerbox centerbox centerbox";
+                
+                &-left-box{
+                        
+                        grid-area: leftbox;
+
+                        &-title{
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        font-size: 2rem;
+                        text-align: center;
+                        
+                        &-social{
+                               
+                                padding:10% 10% 10% 10%;
+                                
+                               
+                                &-texte{
+                                        
+                                        margin-top: 3rem;
+                                        margin-left: 5%;
+                                        font-size: 2rem;
+                                        
+                                }
+                                &-textedeux{
+                                        margin-left: 5%;
+                                        font-size: 2rem;
+                                        
+                                        
+                                }
+                        }
+                }
+                        }
+                &-center-box{
+                        
+                        grid-area: centerbox;
+                        &-title-content{
+                                
+                                &-ventealcoolinterdite{
+                                        &-img{
+                                        margin-left: 7%;   
+                                        width: 90%;
+                                        }
+                                }
+                        }
+                }
+                &-right-box{
+                        
+                        grid-area: rightbox;
+
+                        &-title{
+                                margin-top: 10%;
+                                font-size: 2rem;
+                                text-align: center;
+                                &-social{
+                                        display: flex;
+                                        justify-content: center;
+                                        &-a{
+                                                
+                                                font-size: 2rem;
+                                                
+                                        }
+                                                
+                                }
+                        }
+                }
+        }
+}
+}
+
+@media screen and (max-width: 425px) {
+.footer-principal {
+
+        &-container{
+                
+               
+                &-left-box{
+                        
+                        grid-area: leftbox;
+                        &-title{
+                        margin-top: 5%;
+                        font-size: 0.8rem;
+                        text-align: center;
+                        &-social{
+                                
+                                &-texte{
+                                        font-size: 1rem;
+                                }
+                                &-textedeux{
+                                        font-size: 1rem;
+                                }
+                        }
+                }
+                        }
+
+
+                &-right-box{
+                      
+                        &-title{
+                                font-size: 0.8rem;
+                                &-social{
+                                        &-a{
+                                                font-size: 0.8rem;
+                                                margin: 0.3rem 0.3rem;
+                                                display: flex;
+                                                align-self: stretch;
+                                                
+                                        }
+                                        &-a:hover{
+                                        color: $color-hover;
+                                        }
+                                }
+                        }
+                }
+                
+        }
+}
+}
+
+
+// === Media Query Footer Svizio Copyright === //
+
+@media screen and (max-width: 1024px) {
+   .footer-principal-footer-svizio{
+        &-copyright{
+                font-size: 1.5rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+   .footer-principal-footer-svizio{
+        &-copyright{
+                font-size: 1.5rem;
+        }
+    }
+
+}
+
